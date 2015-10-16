@@ -19,39 +19,17 @@ main{
 }
 
 section{
-  height: 100vh;
+  min-height: 100vh;
   padding: 20px;
 }
 
 .col{
+  min-width: 500px;
   width:50%;
   float:left;
 }
 
-.edu {
-  border: 2px solid black;
-  margin: 20px;
-  padding: 10px;
-}
-.volunteer{
-  border: 2px solid black;
-  margin: 20px;
-  padding: 10px;
-}
-
-.abroad{
-  border: 2px solid black;
-  margin: 20px;
-  padding: 10px;
-}
-
-.employment{
-  border: 2px solid black;
-  margin: 20px;
-  padding: 10px;
-}
-
-.awards{
+.edu, .volunteer, .abroad, .employment, .awards {
   border: 2px solid black;
   margin: 20px;
   padding: 10px;
